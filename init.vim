@@ -10,6 +10,7 @@ set clipboard=unnamedplus
 set noswapfile
 set termguicolors
 set rnu
+set completeopt=menu,menuone,noselect
 
 call plug#begin()
 

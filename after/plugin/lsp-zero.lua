@@ -13,9 +13,10 @@ lsp.ensure_installed({
 local cmp = require('cmp')
 lsp.setup_nvim_cmp({
     mapping = cmp.mapping.preset.insert({
-        ['<Tab>'] = cmp.mapping.complete(),
+        ['<Tab>'] = cmp.mapping.confirm({ select = true }),
     })
 })
+
 -- (Optional) Configure lua language server for neovim
 lsp.nvim_workspace()
 
