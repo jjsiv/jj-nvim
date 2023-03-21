@@ -15,9 +15,9 @@ set completeopt=menu,menuone,noselect
 call plug#begin()
 
 Plug 'dracula/vim', {'as':'dracula'}
-Plug 'nvim-tree/nvim-tree.lua'
 Plug 'nvim-treesitter/nvim-treesitter',
-Plug 'ms-jpq/coq_nvim'
+Plug 'nvim-tree/nvim-tree.lua'
+Plug 'nvim-tree/nvim-web-devicons'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.1' }
 Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
@@ -41,8 +41,8 @@ Plug 'rafamadriz/friendly-snippets' " Optional
 Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v1.x'}
 Plug 'tpope/vim-fugitive' 
 
-
 call plug#end()
+
 
 
 colorscheme rose-pine 
