@@ -21,10 +21,12 @@ Plug 'nvim-tree/nvim-web-devicons'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.1' }
 Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
+Plug 'feline-nvim/feline.nvim', { 'branch': '0.5-compat' }
 " LSP Support
 Plug 'neovim/nvim-lspconfig'             " Required
 Plug 'williamboman/mason.nvim'           " Optional
 Plug 'williamboman/mason-lspconfig.nvim' " Optional
+Plug 'lewis6991/gitsigns.nvim'
 
 " Autocompletion Engine
 Plug 'hrsh7th/nvim-cmp'         " Required
