@@ -42,8 +42,9 @@ Plug 'L3MON4D3/LuaSnip'             " Required
 Plug 'rafamadriz/friendly-snippets' " Optional
 
 Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v1.x'}
-Plug 'tpope/vim-fugitive' 
+Plug 'tpope/vim-fugitive'
 
+Plug 'windwp/nvim-autopairs'
 call plug#end()
 
 
