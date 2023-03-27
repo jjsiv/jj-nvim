@@ -23,6 +23,8 @@ Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.1' }
 Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
 Plug 'feline-nvim/feline.nvim', { 'branch': '0.5-compat' }
 Plug 'nvim-lualine/lualine.nvim'
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+
 " LSP Support
 Plug 'neovim/nvim-lspconfig'             " Required
 Plug 'williamboman/mason.nvim'           " Optional
@@ -49,5 +51,6 @@ call plug#end()
 
 
 
-colorscheme rose-pine 
+"colorscheme rose-pine 
+colorscheme tokyonight-night
 
