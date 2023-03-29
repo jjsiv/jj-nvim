@@ -24,6 +24,7 @@ Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
 Plug 'feline-nvim/feline.nvim', { 'branch': '0.5-compat' }
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'EdenEast/nightfox.nvim'
 
 " LSP Support
 Plug 'neovim/nvim-lspconfig'             " Required
@@ -52,5 +53,5 @@ call plug#end()
 
 
 "colorscheme rose-pine 
-colorscheme tokyonight-night
+colorscheme nightfox
 
