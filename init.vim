@@ -25,6 +25,7 @@ Plug 'feline-nvim/feline.nvim', { 'branch': '0.5-compat' }
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'EdenEast/nightfox.nvim'
+Plug 'romgrk/barbar.nvim'
 
 " LSP Support
 Plug 'neovim/nvim-lspconfig'             " Required
