@@ -51,7 +51,10 @@ Plug 'tpope/vim-fugitive'
 Plug 'windwp/nvim-autopairs'
 call plug#end()
 
-
+lua << EOF
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
+EOF
 
 "colorscheme rose-pine 
 colorscheme nightfox
