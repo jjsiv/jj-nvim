@@ -25,6 +25,7 @@ Plug 'feline-nvim/feline.nvim', { 'branch': '0.5-compat' }
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'EdenEast/nightfox.nvim'
+Plug 'rebelot/kanagawa.nvim'
 Plug 'romgrk/barbar.nvim'
 
 " LSP Support
@@ -57,5 +58,5 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 EOF
 
 "colorscheme rose-pine 
-colorscheme nightfox
+colorscheme kanagawa-dragon
 
