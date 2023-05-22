@@ -58,5 +58,7 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 EOF
 
 "colorscheme rose-pine 
-colorscheme kanagawa-dragon
+colorscheme kanagawa
 
+" Set line number color to something bright
+hi LineNr guifg=#daa520
