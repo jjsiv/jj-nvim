@@ -1,3 +1,22 @@
+require("barbar").setup{
+    icons = {
+        diagnostics = {
+            [vim.diagnostic.severity.ERROR] = {enabled = true},
+            [vim.diagnostic.severity.WARN] = {enabled = false},
+            [vim.diagnostic.severity.INFO] = {enabled = false},
+            [vim.diagnostic.severity.HINT] = {enabled = true},
+        },
+        gitsigns = {
+            added = {enabled = true, icon = '+'},
+            changed = {enabled = true, icon = '~'},
+            deleted = {enabled = true, icon = '-'},
+        }
+    },
+    sidebar_filetypes = {
+        NvimTree = true
+    }
+}
+
 vim.api.nvim_create_autocmd('FileType', {
   callback = function(tbl)
     local set_offset = require('bufferline.api').set_offset
@@ -27,6 +46,7 @@ vim.api.nvim_create_autocmd('FileType', {
   end,
   pattern = 'NvimTree', -- or any other filetree's `ft`
 })
+
 
 
 --keymap
