@@ -10,7 +10,8 @@ require("barbar").setup{
             added = {enabled = true, icon = '+'},
             changed = {enabled = true, icon = '~'},
             deleted = {enabled = true, icon = '-'},
-        }
+        },
+        pinned = {button = "", filename = true}
     },
     sidebar_filetypes = {
         NvimTree = true
